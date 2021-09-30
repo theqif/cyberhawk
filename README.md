@@ -1,5 +1,7 @@
 # cyberhawk
 php, JS, XHR &amp; html implementation of FizzBuzz
+
+
 NEED
 
  - PHP to build html-page, which has the UI & references JS (static html)
@@ -12,8 +14,15 @@ NOTES
  - output generation done in PHP
  - use jquery instead of vanilla XMLHttpRequest for speed/simplicity.  not necessarily an option in 'production'.
 
+Source control and deployed
 
-Our task
+ - http://qif.io/dev/cyberhawk/
+ 	- this is an AWS instance; deployed via 'git clone'
+ 	- assumes data source is same site & folder.  data source URL hardcoded in HTML
+ - https://github.com/theqif/cyberhawk
+
+
+BRIEF
 
 A wind turbine has 100 items on it, each gets inspected. Write an application that outputs numbers from 1 to 100, but for multiples of three print “Coating Damage” instead of the number and for the multiples of five print “Lightning Strike” instead of the number. For numbers which are multiples of both three and five print “Coating Damage and Lightning Strike” instead of the number.
  
